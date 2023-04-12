@@ -159,9 +159,6 @@ main {
   align-items: center;
   text-align: center;
 }
-h3 {
-
-}
 
 .plant-name-1 {
   font-weight: 500;
@@ -237,6 +234,9 @@ h3 {
 
 
 /* FEATURED PLANTS */
+.featured-plants{
+  margin-bottom: 80px;
+}
 .heading-choicebar {
   display: flex;
   align-items: center;
@@ -291,60 +291,173 @@ h3 {
 
 /* /IMAGES */
 
+/* ACTION SECTION*/
 
-
-
-/* FOOTER STAYL */
-.footer-container {
-  display: flex;
-  padding: 60px 131px 71px;
-
+.site-actions {
+  margin-bottom: 80px;
 }
+
+.action-title-image__wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+.action-title {
+  margin-right: 84px;
+  color:#2c1500;
+}
+
+.action-title-heading-text__wrapper{
+  width: 522px;
+  height: 268px;
+  margin-bottom: 84px;
+}
+.action-title__heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.action-title_text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.8;
+  }
+.action-title__image-img {
+  width: 568px;
+  height: 250px;
+}
+.action-image {
+  width: 513px;
+  height: 609px;
+}
+/* /ACTION SECTION */
+
+/* PROMO SECTION */
+.promo {
+  margin-bottom: 80px;
+}
+
+
+.promo-info-images__wrapper {
+  background-color:#f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.promo-info {
+  padding: 88px 47px;
+  margin-right: 8px;
+}
+.promo-info__heading {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.button {
+  padding: 10px 42px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #156963;
+  color:#fff;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.button:hover{
+  opacity: 0.8;
+}
+.button:active{
+  opacity: 0.6;
+}
+.promo-images {
+  display: flex;
+}
+.promo-images__img {
+  width: 480px;
+  height: 360px;
+  object-fit: cover;
+}
+
+/* FOOTER style */
+
+.site-footer{
+  border-top: 1px solid rgba(21, 105, 99, 0.3);
+  font-family:"Work Sans", sans-serif;
+}
+
+.footer-container {
+  width: 946px;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 71px;
+  padding: 0;
+}
+
 
 .footer-content__section {
   width: 287px;
   margin-right: 80px;
+  padding: 0px;
 }
 .footer-content__link {
+  display: inline-block;
   font-size: 24px;
+}
 
+.footer-content__logo{
+  display: block;
 }
 
 .footer-content__title {
   margin:24px 0px 10px;
-  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 19px;
   font-weight: 500;
   color:#333333 ;
 }
 .footer-content__text {
-  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  width: 282px;
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
   color:#4F4F4F;
 }
+
+
 .links {
   display: flex;
 }
 .links__box {
-  width: 95px;
-  list-style: none;
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
   margin-right: 80px;
+  list-style: none;
 }
 .links__item {
-  font-family: 'Work Sans', sans-serif;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
-  padding-bottom: 20px;
 }
-.link-bolt{
-  font-size: 15px;
-  font-weight: bold;
+.links__item:not(:last-child){
+  margin-bottom: 20px;
+}
+.link-header{
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .links__link {
@@ -355,25 +468,35 @@ h3 {
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
-  font-family: 'Work Sans', sans-serif;
   margin: 0px;
   margin-bottom: 14px;
 }
 .form-input {
-  width: 234px;
-  height: 34px;
-  margin-bottom: 14px;
   display: block;
+  padding: 8px 13px;
+  margin-bottom: 14px;
+  border:1px solid #f2f2f2;
+  border-radius: 2px;
 }
 .form-button {
-  width: 56px;
-  height: 25px;
-  font-size: 11px;
-  padding: 5px;
-  background:#156963;
-  border:none;
+  display: flex;
+  padding:  4px 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 14px;
   border-radius: 2px;
+  border:none;
+  background-color:#156963;
   color:#fff;
+  transition: 0.3s;
+}
+
+.form-button:hover{
+  opacity: 0.8;
+}
+.form-button:active{
+  opacity: 0.6;
 }
 
 /* /FOOTER */

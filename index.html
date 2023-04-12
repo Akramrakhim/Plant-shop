@@ -4,29 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plant-Shop</title>
-  <!-- STYLES CSS LINKS -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project (Plant Shop)</title>
+  <title>Plant Shop</title>
 
   <!-- GOOGLE-FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700&family=Poppins:wght@500&family=Raleway:wght@500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- GOOGLE ICONS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
   <!-- STYLES CSS LINKS -->
@@ -37,13 +23,9 @@
 
   <!-- HEADER -->
   <header>
-
     <div class="container">
-
       <div class="header-container">
-
         <img class="header-background-img" src="/image/pexels-cottonbro.png" alt="pexels-cottonbro" width="608" height="913" srcset="/image/pexels-cottonbro.png 1x, /image/pexels-cottonbro@2x.png 2x">
-
         <!-- NAVIGATION BAR -->
         <div class="header-subcontainer">
           <nav>
@@ -74,11 +56,7 @@
 
             </ul>
           </nav>
-
-
           <!-- HEADER TEXT -->
-
-
           <div class="header-text">
             <h2 class="header-text-heading">Kembang <br>Flower Mantap</h2>
             <p class="header-text-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -89,10 +67,8 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
-
 </header>
 <!-- /HEADER -->
 
@@ -214,12 +190,51 @@
 
     </div>
   </section>
+
+
+
+<!-- ACTION SECTION -->
+<section class="site-actions">
+  <div class="container subcontainer">
+    <div class="action-title-image__wrapper">
+      <div class="action-title">
+        <div class="action-title-heading-text__wrapper">
+        <h2 class="action-title__heading">
+          Buy more plants, it helps you to be relaxed 
+        </h2>
+        <p class="action-title_text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.
+        </p>
+      </div>
+          <img class="action-title__image-img" src="image/promo-small-img.jpg" alt="" srcset="image/promo-small-img.jpg 1x, image/promo-small-img@2x.jpg 2x" width="568" height="250" >
+      </div>
+      <img class="action-image" src="image/promo-right-img.jpg" alt="" srcset="image/promo-right-img.jpg 1x, image/promo-right-img@2x.jpg 2x" width="513" height="609">
+    </div>
+  </div>
+</section>
+<!-- /ACTION SECTION -->
+
+
+<!-- PROMO SECTION -->
+<section class="promo">
+  <div class="container subcontainer">
+    <div class="promo-info-images__wrapper">
+      <div class="promo-info">
+        <h2 class="promo-info__heading">
+          Get your favourites plant on <br> our shop now
+        </h2>
+        <a class="button" href="#"> Visit Shop</a>
+      </div>
+      <div class="promo-images">
+        <img class="promo-images__img" src="image/visit-shop.png" alt="" srcset="image/visit-shop.png 1x, image/visit-shop@2x.png 2x" width="480" height="360">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /PROMO SECTION -->
 </main>
-
-
 <!-- FOOTER -->
-<footer>
-  <hr>
+<footer class="site-footer">
   <div class="footer-container container">
     <!-- plantku box -->
     <div class="footer-content__section">
@@ -228,15 +243,15 @@
       </a>
       <h3 class="footer-content__title">Plantku House</h3>
       <p class="footer-content__text">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah
-        Istimewa
-        Yogyakarta 5content</p>
+        Istimewa Yogyakarta 5content</p>
     </div>
+
 
     <!--  footer link -->
     <div class="links">
       <ul class="links__box">
         <li class="links__item">
-          <a class="links__link link-bolt" href="#">Perusahaan</a>
+          <h2 class="link-header">Perusahaan</h2>
         </li>
         <li class="links__item">
           <a class="links__link" href="#">Tentang Kami</a>
@@ -248,7 +263,7 @@
 
       <ul class="links__box">
         <li class="links__item">
-          <a class="links__link link-bolt" href="#">Produk</a>
+          <h2 class="link-header">Produk</h2>
         </li>
         <li class="links__item">
           <a class="links__link" href="#">Tanaman</a>
@@ -261,13 +276,15 @@
       <form action="">
         <h3 class="form-title">Berlangganan Email Kami</h3>
         <input class="form-input" type="email" name="email" id="email" placeholder="Masukan Alamat Email">
-        <button class="form-button">Submit</button>
+        <button class="form-button" type="submit">Submit</button>
       </form>
     </div>
 
   </div>
 </footer>
 <!-- /FOOTER -->
+
+
   <script src="js/main.js"></script>
 </body>
 </html>
